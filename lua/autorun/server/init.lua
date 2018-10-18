@@ -4,5 +4,7 @@
 */
 
 hook.Add("Initialize", "tfs_MaxVelocity", function()
+
 	RunConsoleCommand("sv_maxvelocity", "10000")
+	
 end)
